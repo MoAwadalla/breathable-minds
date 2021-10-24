@@ -948,9 +948,14 @@ var _jsxRuntime = require("react/jsx-runtime");
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 var _app = require("./App");
+<<<<<<< HEAD
 var _appDefault = parcelHelpers.interopDefault(_app);
 const app = document.getElementById("app");
 _reactDomDefault.default.render(/*#__PURE__*/ _jsxRuntime.jsx(_appDefault.default, {
+=======
+const app = document.getElementById("app");
+_reactDomDefault.default.render(/*#__PURE__*/ _jsxRuntime.jsx(_app.App, {
+>>>>>>> CommunityBranch
     __source: {
         fileName: "src/index.js",
         lineNumber: 5
@@ -22730,6 +22735,7 @@ $parcel$ReactRefreshHelpers$9846.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+<<<<<<< HEAD
 var _jsxRuntime = require("react/jsx-runtime");
 var _resource = require("./Resource");
 function App() {
@@ -22788,11 +22794,22 @@ function Resource() {
         __source: {
             fileName: "src/Resource.js",
             lineNumber: 12
+=======
+parcelHelpers.export(exports, "App", ()=>App
+);
+var _jsxRuntime = require("react/jsx-runtime");
+function App() {
+    return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
+        __source: {
+            fileName: "src/App.js",
+            lineNumber: 2
+>>>>>>> CommunityBranch
         },
         __self: this,
         children: [
             /*#__PURE__*/ _jsxRuntime.jsx("h1", {
                 __source: {
+<<<<<<< HEAD
                     fileName: "src/Resource.js",
                     lineNumber: 20
                 },
@@ -23387,19 +23404,43 @@ function Resource() {
                         ]
                     })
                 ]
+=======
+                    fileName: "src/App.js",
+                    lineNumber: 3
+                },
+                __self: this,
+                children: "Hello world"
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx("button", {
+                __source: {
+                    fileName: "src/App.js",
+                    lineNumber: 4
+                },
+                __self: this,
+                children: "Click Me!"
+>>>>>>> CommunityBranch
             })
         ]
     }));
 }
+<<<<<<< HEAD
 _c = Resource;
 var _c;
 $RefreshReg$(_c, "Resource");
 
   $parcel$ReactRefreshHelpers$8e5e.postlude(module);
+=======
+_c = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$9846.postlude(module);
+>>>>>>> CommunityBranch
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
 },{"react/jsx-runtime":"6Ds2u","react":"4mchR","react-bootstrap":"9qMdX","bootstrap/dist/css/bootstrap.min.css":"5dhe6","./event1.png":"4AZ8V","./event2.jpeg":"kVEtE","./article1.jpeg":"82RY6","./article2.jpeg":"7KDTO","./video1.png":"kxN7f","@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}],"9qMdX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -23919,6 +23960,9 @@ function _extends() {
 exports.default = _extends;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV"}],"ciiiV":[function(require,module,exports) {
+=======
+},{"react/jsx-runtime":"6Ds2u","@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}],"ciiiV":[function(require,module,exports) {
+>>>>>>> CommunityBranch
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -23948,6 +23992,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
+<<<<<<< HEAD
 },{}],"9unNO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -35948,6 +35993,9 @@ module.exports = require('./helpers/bundle-url').getBundleURL('hjDlF') + "articl
 module.exports = require('./helpers/bundle-url').getBundleURL('hjDlF') + "video1.e4b09ec4.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"chiK4"}],"9pz13":[function(require,module,exports) {
+=======
+},{}],"9pz13":[function(require,module,exports) {
+>>>>>>> CommunityBranch
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
