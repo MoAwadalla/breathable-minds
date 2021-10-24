@@ -10,7 +10,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import voice from "./voice.png";
 import CommentList from "./CommentList";
 import CommentForm from "./CommentForm";
-
 export function Community() {
   const [imgSource, changeImage] = useState(thumbs);
   const [imgSource2, changeBookmark] = useState(bookmarks);
