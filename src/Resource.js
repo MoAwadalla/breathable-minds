@@ -199,11 +199,7 @@ export function Resource() {
         >
           <Card.Body>
             <Card.Title>Depression, the secret we share</Card.Title>
-            <Card.Img
-              style={{ marginBottom: 5 }}
-              variant="top"
-              src={video1}
-            />
+            <Card.Img style={{ marginBottom: 5 }} variant="top" src={video1} />
             <Card.Text>
               "The opposite of depression is not happiness, but vitality, and it
               was vitality that seemed to seep away from me in that moment." In
